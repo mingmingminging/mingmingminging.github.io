@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+<title>intern review | ming</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">ming&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">ming&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">intern review</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">ming</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">September 6, 2021&nbsp;&nbsp;21:17:00</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <pre><code>Date:    2021年9月6日 GMT+8 上午10:41:18</code></pre><h1 id="intern-review"><a href="#intern-review" class="headerlink" title="intern review"></a>intern review</h1><p>想到的点都散散漫漫地写下来。<br>自身的不足和问题&amp; 改进与提升的方法。<br>塑造自己独特的风格<br>问题出在哪里？<br>一过来把东西想得太难也把自己想得太菜了<br>觉得最严重最影响自己的几个问题是什么？</p>
+<ul>
+<li><input disabled="" type="checkbox"> 也向他好好地介绍自己，把你希望他了解的点都说清楚</li>
+<li><input disabled="" type="checkbox"> 不仅仅是实习的两个半月，也好好回顾这半年，有哪些做得好做得不好的地方。<br>首先是之前在实验室的模式，因为两种环境有一些差别，而自己的适应期也的确有点长。具体是哪几点呢？<br>不问问题的习惯，实验室的模式是，自己搭的前端后台，后来就负责把握整个页面框架和关键点，把自己怎么学的讲给老师和同学听，琐碎的细节界面就交给别人去写。 因为以前实验室也没用过前后端分离和rest，也没人问，全部是按自己想法搭建设计的，加上参考外部大佬意见，所以的确不存在问人。 调试的话基本上chrome devtool&amp;谷歌都可以解决。 沟通交流需求这一块也比较刚，一般老师反馈甲方意见，然后自己就会只做关键的确有需要的部分，其他就直接跟老师讲：xxxx这个地方需求不合理以及列出原因和解决思路。 加上前后端都自己写的，的确不像对接tfjs时那样需要那么多沟通。<br>按理说整个系统页面还是比较多的，同实验室一个去阿里实习的也说我们这个比较大型一点，他之前做的一些项目都只能算这个系统里面的一个小部分，所以他一开始都没有这么多人完成过一个项目。所以感觉自己应该是有一定的实践基础的，不过前端基础和理解包括一些现有技术应用的确不太够，只停留在能用能写界面能维护的阶段～就有点搭后台加着写写前端，以及被需求追着跑，少了深入钻研。</li>
+</ul>
+<p>还有一个问题，做事情时少了后续的思考和进一步的进阶。花在背后探索深入钻研和理解的时间少了。</p>
+<p>所以实习后也是同样的思路，觉得碰到的问题都可以自己解决， 但是环境不一样了，处理问题的方式也该发生改变。<br>以前为什么可以？为什么这里的思维会有点没转换过来？<br>开源框架开源社区的维护。 健全详尽的文档。 善用chrome devtool&amp;谷歌。 小型用户群体&amp;小型需求。</p>
+<p>而支付宝是一个国民级应用。加上企业内部框架也还是有一些不同的。<br>接手的代码和框架，使用的工具，都不是自己手把手搭起来的了（所以要问人啊，以前就是因为全部是自己弄的非常熟悉不需要问人），一开始接的时候都只是会定位代码，会改地方，但没有去了解背后的整体还有一整套工具链。还和以前一样，觉得在应用中自然而然会熟。<br>再是之前的思路是用到什么地方就去查文档的什么地方，定位问题看文档写代码满足需求～然后就结束了。 以及善用google，所以真的就一直不问人。 ～其实背后还是有很多东西可以再深挖和扩展的。<br>实习期为什么这种模式会不行？</p>
+<ul>
+<li><input disabled="" type="checkbox"> <p>少了熟悉了解整体这一步，一开始有点没跳出来，陷于细节与需求。</p>
+</li>
+<li><input disabled="" type="checkbox"> <p>之前自己搭的框架，一般是别人写了bug问你怎么用，或者反馈你写的代码有个地方有问题要你调一下，所以没太体会过不会用某个东西要去问人的感受， 所以实习时碰到某个不会的会觉得自己非常菜，有点不自信，加上别人若是一否定你，就更有点不知道怎么问了。就是教别人教久了反而有点不会当学生了。</p>
+</li>
+<li><input disabled="" type="checkbox"> <p>不问人 ，还是每次想着自己探索解决，但是这个过程非常不顺畅，而且企业框架中的很多东西是需要沟通交流询问。</p>
+</li>
+<li><input disabled="" type="checkbox"> <p>文档质量参差不齐，以前过于依赖高质量文档&amp;google搜索。 换成内部的东西后反而有点没切换过来思维，而重度依赖语雀查询的效果并不太好。 ～～这个时候可能就需要问人了，和上面的又对起来了。</p>
+</li>
+<li><input disabled="" type="checkbox"> <p>实验室的整理<br>翻了翻，想一想和yuyutian合作这个项目时暴露出的问题。 自己有什么问题？<br>～有点慢，做事不怎么把握进度，不喜欢写文档，不喜欢管细节。 ～可能在学校的时候非常讨厌被条条框框限制住了。把控和具体规划能力的确是自己的弱点。 </p>
+</li>
+<li><input disabled="" type="checkbox"> <p>实习的沟通交流<br>（但是我们是一个大应用，而且有很多企业内部逻辑，有一些地方更是经验之谈，这个时候问一问人会快很多，然后后续再去进行理解探索，而不是盲目地找大量资源）</p>
+</li>
+</ul>
+<p>（哇塞这个地方自己怎么说啊）<br>～其实都是相通的吧， 为什么自己没意识到？  但是一开始接触大型系统没有意识到背后的逻辑都是相通的，有的地方只是稍微改变了一下表现形式而已。（这里要不然就是自己应该看得透点，一开始有意识了解背后的整体。要不然就是应该问人，有人点一下）<br>刚才说到的 迷信和崇拜 生活模式的不适应 她的处事方式不一定适合你</p>
+<ul>
+<li><input disabled="" type="checkbox"> 再从整体分析一下沟通交流上的问题。 还有自己做事落地思路的问题。 以及前端基础的确不够好 还有面试要准备</li>
+<li><input disabled="" type="checkbox"> 然后再是具体分析每一个项目每一件事的提升点，还有沟通过程如何更有效。<br>加上每次说，你问这个问题我觉得你对xxx没有理解，就觉得特别特别难，也没有透彻。 自己乱了节奏，不知道做什么。 还有不需要那样详尽地讲的。<br>别人问你你不像她一样，加上你问别人别人也不像她一样。 </li>
+</ul>
+<p>可能还有一个沟通和磨合的过程，自己适合的教法是怎样的。  就是那种自己探索，有时候有人点一下， 问人、效率、整体把控节奏的确是自己的不足和短板。</p>
+<p>～～这里也要和他讲讲自己在实验室是怎么合作的。 截图发一发吧，就说一直习惯了别人问我没习惯自己问别人。<br>可能从学校一出来还是太年轻了，就算提前思考了再多，认知能力和社会经验还是会有不足，但是越早地暴露问题应当是越好的。</p>
+<ul>
+<li><input disabled="" type="checkbox"> 后面的话其实就是被师姐否定得迷失自我了 整个节奏都乱掉了，这里自己解释清楚。 具体到每一件事情也解释清楚，如何更好的做。</li>
+<li><input disabled="" type="checkbox"> 然后基础的确要好好补</li>
+</ul>
+<p>她提的几点问题是什么。<br>把刚才和老师说的写下来吧。</p>
+<p>为什么换到实习期间就不顺畅了？  ～～为什么这些地方会都有点转不过弯来啊。</p>
+<ul>
+<li><input disabled="" type="checkbox"> 感觉还是和你师姐很有关，这块问题最大 先写写这个吧</li>
+<li><input disabled="" type="checkbox"> 盲目相信他人 完全没了自己的思考</li>
+<li><input disabled="" type="checkbox"> 还有那种不适应自己的学习模式和方法，没有找到自己的节奏，却非要把别人的方法往自己身上套 应该走自己的路</li>
+<li><input disabled="" type="checkbox"> 把所有的东西都想得太难了</li>
+<li><input disabled="" type="checkbox"> 以及被打击吧 不敢问</li>
+<li><input disabled="" type="checkbox"> 还有实习期间所有觉得自己做得不好的地方，一一回顾。 还有说的做事不够快。</li>
+<li><input disabled="" type="checkbox"> 要复习要投递，多沟通交流巩固知识&amp;证明自己。 实习的项目也可以梳理写到简历上。</li>
+<li><input disabled="" type="checkbox"> 面试要准备问题，要思考要总结。</li>
+<li><input disabled="" type="checkbox"> 学习计划整理出自己的笔记。<br>还有很多地方是一个工程经验问题，～觉得最大问题是和mentor风格的不适应<br>埋点为什么那么久 万花筒为什么 tfjs又是为什么 ～永远把别人当大佬看，永远觉得自己的问题，永远觉得自己可以调出来</li>
+</ul>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>ming</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="http://yoursite.com/2021/09/06/intern-review/">http://yoursite.com/2021/09/06/intern-review/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span>Do you believe in <strong>DESTINY<strong>?</span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/2019/08/07/hello-world/">Hello World 0906</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© ming | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>
